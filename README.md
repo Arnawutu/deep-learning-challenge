@@ -8,7 +8,7 @@ I used a CSV file containing information on over 34,000 organizations previously
 # Data Preprocessing
 Steps taken in data preprocessing included:
 
-# Eliminating columns that weren't useful.
+Eliminating columns that weren't useful.
 Identifying the number of instances for each unique value in columns with more than 10 unique values, namely APPLICATION_TYPE and CLASSIFICATION.
 Setting thresholds of 600 and 300 for APPLICATION_TYPE and CLASSIFICATION, respectively, to group infrequent categories under a new "Other" category.
 Converting categorical data into numeric format using pd.get_dummies().
